@@ -12,9 +12,11 @@ npx knex migrate:latest
 npx knex seed:run
 
 To run in development:
+
 npm run dev
 
 To run in production:
+
 npm start
 
 ## Incoming features and patches (June 2019)
