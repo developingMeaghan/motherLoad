@@ -5,13 +5,13 @@ class PCParts extends React.Component {
   render() {
     return (
       <Fragment>
-        <h2 className="title is-2 has-text-white has-text-centered	">
+        <h2 >
           PC Parts &mdash; What Do They Do?
         </h2>
 
-        <div className="content has-text-left" id="cleanUp">
+        <div  id="cleanUp">
           <span>
-            <h3 className="has-text-white">CPU (Central Processing Unit)</h3>
+            <h3 >CPU (Central Processing Unit)</h3>
 
             <p>
               The CPU is the brain of the computer it runs all of the
@@ -21,7 +21,7 @@ class PCParts extends React.Component {
           <br />
 
           <span>
-            <h3 className="has-text-white">CPU Cooler</h3>
+            <h3 >CPU Cooler</h3>
 
             <p>
               This cools down the CPU so it can run at an optimal temperature to
@@ -30,15 +30,15 @@ class PCParts extends React.Component {
             </p>
 
             <ul>
-              <li className="has-text-white">
-                <strong className="has-text-white">Liquid cooling:</strong> a
+              <li >
+                <strong >Liquid cooling:</strong> a
                 liquid cooling block is usually connected to the CPU and has a
                 reservoir of extra coolant waiting to be used to cool down the
                 CPU.
               </li>
 
-              <li className="has-text-white">
-                <strong className="has-text-white">Fan cooling:</strong>{" "}
+              <li >
+                <strong >Fan cooling:</strong>{" "}
                 Typically when using fan cooling you would have a heatsink
                 attached to the fan, and the heatsink is what gets attached to
                 the CPU using thermal paste/compound, which helps dissipate the
@@ -49,7 +49,7 @@ class PCParts extends React.Component {
           <br />
 
           <span>
-            <h3 className="has-text-white">Motherboard</h3>
+            <h3 >Motherboard</h3>
 
             <p>
               The motherboard holds the CPU (Central Processing Unit), RAM
@@ -61,7 +61,7 @@ class PCParts extends React.Component {
           <br />
 
           <span>
-            <h3 className="has-text-white">Memory (RAM)</h3>
+            <h3 >Memory (RAM)</h3>
 
             <p>
               Makes it easier to run multiple applications or applications that
@@ -71,7 +71,7 @@ class PCParts extends React.Component {
           <br />
 
           <span>
-            <h3 className="has-text-white">Storage</h3>
+            <h3 >Storage</h3>
 
             <p>
               Holds your files, such as games, programs and documents. There are
@@ -80,8 +80,8 @@ class PCParts extends React.Component {
             </p>
 
             <ul>
-              <li className="has-text-white">
-                <strong className="has-text-white">
+              <li >
+                <strong >
                   HDD (Hard Disc Drive):
                 </strong>{" "}
                 A HDD or often referred to as a hard drive is the typical
@@ -90,8 +90,8 @@ class PCParts extends React.Component {
                 multiple options to store your files.
               </li>
 
-              <li className="has-text-white">
-                <strong className="has-text-white">
+              <li >
+                <strong >
                   SSD (Solid State Drive):
                 </strong>{" "}
                 Unlike a hard drive an SSD doesn’t have any moving parts and
@@ -101,8 +101,8 @@ class PCParts extends React.Component {
                 reading and writing data to the SSD.
               </li>
 
-              <li className="has-text-white">
-                <strong className="has-text-white">
+              <li >
+                <strong >
                   SSHD (Solid State Hybrid Drive):
                 </strong>{" "}
                 SSHDs combines both SSDs and HDDs. You’re able to store data on
@@ -118,7 +118,7 @@ class PCParts extends React.Component {
           <br />
 
           <span>
-            <h3 className="has-text-white">Graphics Card</h3>
+            <h3 >Graphics Card</h3>
 
             <p>
               A graphics card is what displays graphics/information to the
@@ -130,14 +130,14 @@ class PCParts extends React.Component {
           <br />
 
           <span>
-            <h3 className="has-text-white">Case</h3>
+            <h3 >Case</h3>
 
             <p>Houses all of the parts of a computer.</p>
           </span>
           <br />
 
           <span>
-            <h3 className="has-text-white">Power Supply (PSU)</h3>
+            <h3 >Power Supply (PSU)</h3>
 
             <p>
               The power supply draws power from the wall to supply your computer
@@ -149,7 +149,7 @@ class PCParts extends React.Component {
           <br />
 
           <span>
-            <h3 className="has-text-white">Optical Drive</h3>
+            <h3 >Optical Drive</h3>
 
             <p>
               An optical drive is what allows you to read and write to a disc.

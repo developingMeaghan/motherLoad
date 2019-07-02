@@ -17,7 +17,7 @@ class Articles extends React.Component{
     render(){
       return(
         <Fragment>
-          <h2 className='title is-size-2 has-text-white'>Articles</h2>
+          <h2 className='container'>Articles</h2>
           <div className='content has-text-left container' id="articleHolder">
             
             {this.props.articles.map(article => {
@@ -26,7 +26,7 @@ class Articles extends React.Component{
                 var domain = article.source_url
 
               return (
-                <div className="is-child" id="articleCard">
+                <div className="text" id="articleCard">
                   <h3><b>{article.title}</b></h3>
                   {article.description}<br />
                   Source: <a href={domain} target='_blank'>{url}</a>

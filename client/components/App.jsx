@@ -14,14 +14,13 @@ import Articles from "./Articles";
 import AdviceForm from "./AdviceForm";
 import RegisteredUsersHome from "./RegisteredUsersHome.jsx";
 import NonRegisteredHome from "./NonRegisteredHome"
-import Filter from "./Filter";
 import Footer from "./Footer";
 import FilterItem from "./FilterItem";
 
 export function App({ auth }) {
   return (
     <Router>
-      <div className="container has-text-centered">
+      <div className="container">
         <Nav />
         <Header />
         <MenuBar />

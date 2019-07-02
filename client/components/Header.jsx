@@ -5,10 +5,10 @@ class Header extends React.Component {
   render() {
     return (
       <Fragment>
-        <div className="hero is-small" id="header">
-          <div className="hero-body has-text-centered">
-            <Link to="/" className="">
-              <h1 className="has-text-weight-bold has-text-white has-text-weight-medium">
+        <div id="header">
+          <div>
+            <Link to="/" >
+              <h1>
                 MotherLoad
               </h1>
             </Link>

@@ -13,7 +13,7 @@ class RandomTutorials extends React.Component {
                 <div>
                     {this.props.tutorials.length &&
                         <Fragment>
-                            <h2 id="carouselHeader" className="is-size-3">
+                            <h2 id="carouselHeader" >
                                 Tutorial: {this.props.tutorials[randomPick].title}
                             </h2>
                         <h4>{this.props.tutorials[randomPick].description}</h4>

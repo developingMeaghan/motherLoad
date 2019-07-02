@@ -27,17 +27,17 @@ class Tutorials extends React.Component {
           </span>
         </p>
 
-        <h2 className="title is-2 has-text-white has-text-centered">
+        <h2 >
           Tutorials
         </h2>
 
-        <div className="content has-text-left" id="cleanUp">
+        <div id="cleanUp">
 
           {this.props.tutorials.map(tutorials => {
             return (
               <Fragment>
                 <div id="adviceBox">
-                <h3 className="has-text-white">{tutorials.title}</h3>
+                <h3 >{tutorials.title}</h3>
                 <embed width="420" height="315" src={tutorials.source_url} />
                 <br />
                   {this.props.auth.isAuthenticated && (

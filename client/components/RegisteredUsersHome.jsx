@@ -12,11 +12,11 @@ class RegisteredUsersHome extends React.Component {
     return (
       <Fragment>
         <Carousel />
-        <h2 className="title is-2 has-text-centered has-text-white">
+        <h2 >
           Saved resources:
         </h2>
         <div id="cleanUp">
-          <div className="content has-text-left">
+          <div >
             <Postsbyuser />
           </div>
         </div>

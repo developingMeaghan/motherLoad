@@ -32,7 +32,7 @@ class Postsbyuser extends React.Component {
             console.log(post.type)
             return (
               <Fragment key={post.id}>
-                <h3 className="has-text-white">{post.title}</h3>
+                <h3 >{post.title}</h3>
                 <p>{post.description}</p>
                 {post.type == "tutorial" && <embed width="420" height="315" src={post.source_url} />}
                 <br />

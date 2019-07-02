@@ -28,27 +28,27 @@ class Login extends React.Component {
     const { auth } = this.props;
     return (
       <form className="form box" onSubmit={this.submit} id="LnRForm">
-        <h2 className="title is-2 has-text-white">Login</h2>
+        <h2>Login</h2>
         <hr />
         {auth.errorMessage && (
-          <span className="has-text-danger is-large">{auth.errorMessage}</span>
+          <span>{auth.errorMessage}</span>
         )}
-        <label className="label has-text-white is-large has-text-centered">
+        <label >
           Username
           <input
             required
-            className="input has-text-centered is-large is-fullwidth"
+            
             placeholder="User Name"
             type="text"
             name="user_name"
             onChange={this.updateDetails}
           />
         </label>
-        <label className="label is-large has-text-white has-text-centered">
+        <label >
           Password
           <input
             required
-            className="input has-text-centered is-large is-fullwidth"
+            
             placeholder="Password"
             type="password"
             name="password"
@@ -57,7 +57,7 @@ class Login extends React.Component {
         </label>
         <input
           id="button"
-          className="button is-large is-fullwidth is-success"
+          
           value="Login"
           type="submit"
         />

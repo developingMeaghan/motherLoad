@@ -9,15 +9,15 @@ class FilterItem extends React.Component {
     return (
       <Fragment>
         <Filter filter='true' />
-        <div className="content has-text-left" id="cleanUp">
+        <div className="container" id="cleanUp">
         {this.props.search.map(data => {
           console.log(data)
           return (
             <Fragment>
                 <div id="adviceBox">
-                  <h3 className="is-3 has-text-white">{data.title}
+                  <h3 >{data.title}
                 </h3>
-                <p className="has-text-white has-text-left">
+                <p >
                 {data.description}
                 </p>
                 <p>

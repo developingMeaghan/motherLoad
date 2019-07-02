@@ -9,7 +9,7 @@ class NonRegisteredHome extends React.Component {
     return (
       <Fragment>
         <Carousel />
-        <h2 className="title is-2 has-text-centered has-text-white">
+        <h2 >
           Welcome!
         </h2>
         <div id="welcome">

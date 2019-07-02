@@ -14,7 +14,7 @@ class RandomArticle extends React.Component {
                 <div>
                     {this.props.articles.length &&
                         <Fragment>
-                            <h2 id="carouselHeader" className="is-size-3">
+                            <h2 id="carouselHeader" >
                               Article: <a href={this.props.articles[randomPick].source_url} target='_blank'>{this.props.articles[randomPick].title}</a>
                             </h2>
                         <h4>{this.props.articles[randomPick].description}</h4>

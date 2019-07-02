@@ -24,14 +24,14 @@ class Tips extends React.Component {
           </span>
         </p>
         <Filter filter={false} />
-        <h2 className="title is-2 has-text-centered has-text-white">Tips</h2>
+        <h2 >Tips</h2>
 
-        <div className="content has-text-left" id="cleanUp">
+        <div  id="cleanUp">
           {this.props.tips.map(tips => {
             return (
               <Fragment key={tips.id}>
                 <div id="adviceBox">
-                  <h3 className="has-text-white">{tips.title}</h3>
+                  <h3 >{tips.title}</h3>
                   <p>{tips.description}</p>
 
                   {this.props.auth.isAuthenticated && <Buttons id={tips.id} />}

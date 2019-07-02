@@ -51,22 +51,22 @@ class Register extends React.Component {
           </span>
         )}
         <div className="columns">
-          <label className="column is-6 label is-large has-text-white has-text-centered">
+          <label >
             *Email
             <input
               required
-              className="input is-large  has-text-centered is-fullwidth"
+              
               placeholder="Email"
               type="text"
               name="email"
               onChange={this.updateDetails}
             />
           </label>
-          <label className="column is-6 label is-large has-text-white has-text-centered">
+          <label >
             *Username
             <input
               required
-              className="input is-large  has-text-centered is-fullwidth"
+              
               placeholder="User Name"
               type="text"
               name="user_name"
@@ -76,22 +76,22 @@ class Register extends React.Component {
         </div>
 
         <div className="columns">
-          <label className="column is-6 label is-large has-text-white has-text-centered">
+          <label >
             *First Name
             <input
               required
-              className="input is-large has-text-centered is-fullwidth"
+              
               placeholder="First Name"
               type="text"
               name="first_name"
               onChange={this.updateDetails}
             />
           </label>
-          <label className="column is-6 label is-large has-text-white has-text-centered">
+          <label >
             *Last Name
             <input
               required
-              className="input is-large  has-text-centered is-fullwidth"
+              
               placeholder="Last Name"
               type="text"
               name="last_name"
@@ -101,22 +101,22 @@ class Register extends React.Component {
         </div>
         <br />
         <div className="columns">
-          <label className="column is-6 label is-large has-text-white has-text-centered">
+          <label >
             *Password
             <input
               required
-              className="input is-large has-text-centered is-fullwidth"
+              
               placeholder="Password"
               type="password"
               name="password"
               onChange={this.updateDetails}
             />
           </label>
-          <label className="column is-6 label is-large has-text-white has-text-centered">
+          <label >
             *Confirm Password
             <input
               required
-              className="input is-large has-text-centered is-fullwidth"
+              
               placeholder="Confirm Password"
               type="password"
               name="confirm_password"
@@ -127,7 +127,7 @@ class Register extends React.Component {
         <br />
         <input
           id="button"
-          className="button is-success is-large is-fullwidth"
+          
           value="Register"
           type="submit"
         />

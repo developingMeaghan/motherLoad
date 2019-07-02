@@ -3,27 +3,33 @@
 
 The focuse of this app is to provide accesible and easy to understand knowledge around building a PC. Looking at the parts themselves and tips, tutorials and any relevant articles. But also having a place where people can share what they have learnt in their build journey.
 
+
 ## Setup
 
 Run the following commands in your terminal:
 
+```sh
 npm install
 npx knex migrate:latest
 npx knex seed:run
+```
 
 To run in development:
-
+```sh
 npm run dev
+```
 
 To run in production:
-
+```sh
 npm start
+```
 
-## Incoming features and patches (June 2019)
+## Incoming features and patches June 2019
 
 * Looking into Heroku to get it 100% live. Currently it isn't showing any data from the database. 
 * Adding more features for a registered user. Such as: Being able to comment on tips and tutorials, up voting on comments, suggesting articles/edits etc.
 * Adding an admin feature to edit tips. Making room for potential features.
+* Face-lift.
 
 ## The Tech
 
@@ -36,9 +42,9 @@ npm start
 
 ## User Stories
 
-### MVP
+### MVP(Completed!)
 
-As a non-registered user:
+As a non-registered user: 
   * I want to register for the App under my name.
   * I want to browse tips, tutorials, articles and other knowledge.
   * I ant to be able to filter tips, tutorials and articles by pc parts or general knowledge.
@@ -49,7 +55,7 @@ As a registered user:
   * I want to save tips, tutorials to find them again easily.
   * Be able to post tweets of advice (tips/tutorials).
 
-### Stretch
+### Stretch (Completed!)
 
 As a registered user:
   * Have forum where I can ask for help, advice or trouble shoot and have people respond.

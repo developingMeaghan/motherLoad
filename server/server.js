@@ -22,7 +22,6 @@ server.use(express.static(path.join(__dirname, "../public")));
 server.use("/api/resources", resourceRoutes);
 server.use("/api/categories", categoreyRoutes);
 server.use("/api/auth", authRoutes);
-// server.use("/api/scrapping", scrappingRoutes);
 server.use("/api/post", addRoutes);
 
 module.exports = server;
