@@ -17,7 +17,7 @@ class FilterItem extends React.Component {
                 <div id="adviceBox">
                   <h3 >{data.title}
                 </h3>
-                <p >
+                <p>
                 {data.description}
                 </p>
                 <p>

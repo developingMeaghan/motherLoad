@@ -49,13 +49,13 @@ class Form extends React.Component {
         <label htmlFor="navcheck" aria-hidden="true" title="menu">
           <span className="burger">
             <span className="bar">
-              <span className="filter has-text-grey-lighter">Filter</span>
+              <span >Filter</span>
             </span>
           </span>
         </label>
 
         <nav id="menu">
-          <h2 className="title is-2">Filter:</h2>
+          <h2 >Filter:</h2>
           <div>
             <form className="filterForm" onSubmit={this.handleSubmit}>
               {this.props.categories.map(category => {
