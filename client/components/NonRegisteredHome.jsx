@@ -13,7 +13,7 @@ class NonRegisteredHome extends React.Component {
           Welcome!
         </h2>
         <div id="welcome">
-            <div className="content has-text-left">
+            <div className="stuff">
                 <p>
                     Welcome to MotherLoad! Our aim is to bring information around 
                     PC building to make your life easier. Whether you're new to the 

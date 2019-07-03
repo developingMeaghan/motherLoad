@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import { connect } from "react-redux";
 
 import Header from "./Header";
@@ -18,12 +18,14 @@ import Footer from "./Footer";
 import FilterItem from "./FilterItem";
 
 export function App({ auth }) {
+
   return (
     <Router>
       <div className="container">
         <Nav />
         <Header />
         <MenuBar />
+
 
 
         {!auth.isAuthenticated && (
@@ -36,9 +38,6 @@ export function App({ auth }) {
         <br />
 
         <div className="">
-          {/* {!auth.isAuthenticated &&
-            <Route exact path="/" component={Main} />
-          } */}
           {auth.isAuthenticated && (
             <Route path="/advice" component={AdviceForm} />
           )}

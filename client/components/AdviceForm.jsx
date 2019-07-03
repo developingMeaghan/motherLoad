@@ -148,7 +148,7 @@ class AdviceForm extends React.Component {
               <label className="column is-6 label is-large has-text-white has-text-left is-centered">
                 <input
                   id="button1"
-                  className="button "
+                  className="button"
                   type="submit"
                   onSubmit={this.handleSubmit}
                 />

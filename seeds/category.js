@@ -15,7 +15,7 @@ exports.seed = function(knex, Promise) {
         },
         {
           id: 3,
-          name: "CPU Cooler"
+          name: "CPU Cooling"
         },
         {
           id: 4,

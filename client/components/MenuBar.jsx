@@ -3,6 +3,7 @@ import React, { Fragment } from "react";
 class MenuBar extends React.Component {
     constructor(props){
         super(props)
+        
     }
     render(){
         return(

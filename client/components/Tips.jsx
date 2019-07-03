@@ -5,12 +5,14 @@ import { fetchTips } from "../actions/receive";
 import Buttons from "./Buttons";
 import Filter from "../components/Filter";
 import { saveLocation } from "../actions/location";
+import Comment from "./Comment"
 
 class Tips extends React.Component {
   componentDidMount() {
     this.props.dispatch(fetchTips());
     this.props.dispatch(saveLocation({location: 'tip', url: '/tips'}))
   }
+
   render() {
     return (
       <Fragment>
@@ -34,7 +36,10 @@ class Tips extends React.Component {
                   <h3 >{tips.title}</h3>
                   <p>{tips.description}</p>
 
-                  {this.props.auth.isAuthenticated && <Buttons id={tips.id} />}
+                  {this.props.auth.isAuthenticated && <Buttons id={tips.id}/> 
+                }
+                {this.props.auth.isAuthenticated && <Comment /> 
+                }
                 </div>
               </Fragment>
             );
